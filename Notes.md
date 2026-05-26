@@ -19,3 +19,13 @@ Allows frontend and backend on different origins to communicate.
 
 nodemon:
 Automatically restarts server when files change.
+
+required
+Means field must exist.
+
+unique
+Creates unique index in MongoDB.
+
+IMPORTANT:
+unique is NOT validation logic.
+It creates a DB-level uniqueness constraint.
